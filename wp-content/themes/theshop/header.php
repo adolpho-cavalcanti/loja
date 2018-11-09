@@ -35,6 +35,7 @@
 
 			<nav id="site-navigation" class="main-navigation col-md-8" role="navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+				<?php get_search_form(); ?>
 			</nav><!-- #site-navigation -->
 			<nav class="mobile-nav"></nav>
 		</div>
